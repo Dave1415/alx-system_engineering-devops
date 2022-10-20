@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display thelisting of the program
+netsta5 -l --program
