@@ -1,0 +1,18 @@
+When we type google.com into a web browser and press enter, your browser will send a an https  request to a server to access the website located at the URL google.com .
+The server will then respond to the request by sending back html content of the website, which will be displayed in the browser window.
+the request to access the website is sent over the internet to the server that hosts the website. If a firewall is in place on the network you are using, the request will be checked against the security rules that have been configured for the firewall.
+
+If the request meets the specified security rules, it will be allowed through and the website will be displayed in the browser window as normal. If the request does not meet the security rules, it will be blocked by the firewall. This can prevent unauthorized access to the website or protect against malicious activity on the network
+The load balancer is responsible for directing the request to one of the servers that is capable of fulfilling the request and returning the requested content to the user. The load balancer uses various algorithms to determine which server to send the request to, taking into account factors such as the current load on each server and the proximity of the server to the user.
+
+When the web server receives the request, it will process the request and retrieve the requested content from storage. The web server will then send a response back to the web browser, including the requested content as well as other information such as HTTP status codes and headers. The web browser will then display the content of the website to the user.
+
+There may be multiple web servers involved in serving a single website, depending on the complexity and traffic of the site. A load balancer may also be used to distribute traffic across multiple web servers.
+An application server is a type of server that runs application software that provides specific business logic and functionality. For example, an application server may be responsible for running a search engine or handling user accounts on a website.
+
+A database is a system used to store and manage data, such as the information that is used by a search engine or displayed on a website. When a request is made to a website, the web server may need to retrieve data from the database in order to fulfill the request. The application server may be responsible for interacting with the database and retrieving the necessary data.
+
+The web server, application server, and database work together to provide the content and functionality of the website to the user
+
+#summery
+When we type a URL google.com into a web browser and press enter, the browser sends an HTTP request to a server to access the website located at that URL. If the request meets the security rules set by any firewalls in place, it is allowed through and the website's content is returned to the browser. The load balancer directs the request to one of the servers capable of fulfilling it, and the web server retrieves the content from storage and sends it back to the browser in a response, along with HTTP status codes and headers. The application server may also be involved in handling specific business logic or functionality, and may interact with a database to retrieve data as needed.
